@@ -1,0 +1,355 @@
+* {
+    background-color: rgba(255, 255, 255, 0);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+button,
+input {
+    border: none;
+}
+
+button:hover {
+    box-shadow: 10px 10px 8px rgb(22, 18, 15);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 255, 0.151);
+}
+
+#gradient_section {
+    background-image: linear-gradient(to bottom right, rgba(0, 140, 255, 0.76), rgba(128, 0, 128, 0.658) 60%, rgba(219, 6, 219, 0.918));
+    padding: 30px;
+    color: white;
+    position: relative;
+    height: 620px;
+}
+
+#logo {
+    position: absolute;
+    font-family: cursive;
+    font-size: xxx-large;
+    top: 3%;
+    left: 3%;
+}
+
+#membership {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 1.5em;
+    background-color: white;
+    color: rgba(98, 6, 219, 0.712);
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-weight: bold;
+}
+
+#home_link {
+    position: absolute;
+    top: 15%;
+    left: 3%;
+    font-size: 1.5em;
+}
+
+#search {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    display: flex;
+}
+
+#search_bar {
+    border: 2px solid white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 1.5em;
+}
+
+#search_button {
+    border-radius: 13px;
+    background-color: white;
+    color: rgba(219, 6, 219, 0.918);
+    padding: 5px 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#gradient_remaining {
+    position: absolute;
+    top: 18%;
+}
+
+.section_headings {
+    margin: 2% auto;
+    border: 5px solid rgba(51, 13, 100, 0.63);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.section_headings>h2 {
+    color: rgba(51, 13, 100, 0.63);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.section_headings>p {
+    font-size: large;
+}
+
+#first_heading {
+    border: 5px solid white;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+#first_heading>h2 {
+    color: white;
+}
+
+.heading_card {
+    display: flex;
+}
+
+#header_card_image {
+    width: 1000px;
+    height: 300px;
+}
+
+#heading_card_info {
+    padding: 50px;
+}
+
+#head_card_article {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 1000;
+}
+
+#heading_card_info>button {
+    margin-top: 10px;
+    background-color: white;
+    padding: 15px 25px;
+    border-radius: 20px;
+    color: rgba(128, 0, 128, 0.712);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#non_gradient_section {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#trending_blogs {
+    position: relative;
+}
+
+.trending_section_options {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending_section_options>div,
+.trending_section_options>button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#trending_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending_card_block:hover {
+    box-shadow: 10px 10px 8px rgb(22, 18, 15);
+}
+
+.trending_card_block {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.trending_image {
+    width: 246px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.count {
+    position: absolute;
+    top: 0;
+    left: 1%;
+    background-color: purple;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.count>a {
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+}
+
+.trending_title {
+    font-size: x-small;
+}
+
+.trending_content>button {
+    background-color: purple;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+#resource_library {
+    position: relative;
+}
+
+.library_section_options {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.library_section_options>button {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+#library_card_div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card1 {
+    min-width: 600px;
+    max-width: 600px;
+}
+
+#featured_blogs>h2 {
+    margin: 0 0 0 50px;
+    font-weight: bolder;
+}
+
+#featured_blogs>.library_cards>.library_image {
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 130px;
+    max-height: 130px;
+}
+
+.resource_card2,
+.resource_card3,
+.resource_card4 {
+    display: flex;
+    margin: 20px 0 20px 40px;
+}
+
+.library_title {
+    font-size: x-large;
+    margin-left: 20px;
+    color: purple;
+    font-weight: bolder;
+}
+
+.library_subtitle {
+    font-size: medium;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+
+#other_blogs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.other_blog_cards {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px grey;
+    background-color: rgba(128, 128, 128, 0.212);
+}
+
+.other_blog_image {
+    width: 246px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+#email_section {
+    margin: 10% 15%;
+    background-color: rgba(0, 0, 255, 0.671);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+#email_section>h3 {
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email_section>p {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#email_section>input[type="email"] {
+    background-color: white;
+    padding: 15px 100px;
+    border-radius: 20px;
+}
+
+#email_section>input[type="submit"] {
+    margin-left: 20px;
+    background-color: purple;
+    padding: 14px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#email_section:hover {
+    box-shadow: 10px 10px 8px rgb(22, 18, 15);
+}
+
+footer {
+    margin: 2em;
+    padding: 2em;
+    background-color: gray;
+    border: none;
+    border-radius: 8%;
+}
